@@ -2,7 +2,7 @@
 import Layout from './../components/Layout';
 import Head from 'next/head';
 
-export default function Offer() {
+export default function Contact() {
     return (
         <Layout>
       <Head>
