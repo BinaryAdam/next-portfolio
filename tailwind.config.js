@@ -16,12 +16,31 @@ module.exports = {
           dark: "#21214A",
         },
       },
+      gridRow: {
+        'span-7': 'span 7 / span 7',
+        'span-8': 'span 8 / span 8',
+        'span-9': 'span 9 / span 9',
+        'span-10': 'span 10 / span 10'
+      },
+      gridColumn: {
+        'span-9': 'span 9 / span 9',
+        'span-10': 'span 10 / span 10'
+      },
+      gridRowStart: {
+        '8': '8',
+        '9': '9',
+        '10': '10',
+        '11': '11',
+        '12': '12',
+        '13': '13',
+        'end': '-1'
+       }
     },
     fontFamily: {
       sans: ['"Josefin Sans"', "sans-serif"],
     },
     gridTemplateColumns: {
-      "main-wide": "1fr 50% 1fr",
+      "main-wide": "1fr 60% 1fr"
     },
   },
   variants: {
