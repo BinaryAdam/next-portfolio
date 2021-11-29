@@ -17,7 +17,7 @@ export default function Home({ data }) {
         <MainSection
           id="top"
           row="1"
-          classes="grid grid-rows-[200px,400px] md:grid-rows-[repeat(10,100px),40px] grid-cols-[200px,1fr] md:grid-cols-[70px,repeat(3,100px),repeat(8,1fr)] grid-flow-row justify-items-stretch items-stretch"
+          classes="grid grid-rows-[200px,400px] md:grid-rows-[repeat(10,1fr),40px] grid-cols-[200px,1fr] md:grid-cols-[70px,repeat(3,100px),repeat(8,1fr)] grid-flow-row justify-items-stretch items-stretch max-h-[80vh]"
         >
           <div className="w-full relative row-start-1 md:row-start-1 col-start-1 md:col-start-2 md:col-span-3 md:row-span-3 z-20">
             <Link href='/'>
@@ -43,18 +43,12 @@ export default function Home({ data }) {
           </div>
         </MainSection>
         <MainSection id="offer1" row="2">
-          <h1 className="text-5xl text-center mb-10 mt-20">Oferta</h1>
-
-          <section className="p-5">
+          <div className="grid md:grid-flow-col mt-10 text-4xl justify-items-center gap-8">
             <h2>Projektowanie wnętrz</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-          </section>
-          <section className="p-5">
-            <h2>Renderowanie</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-          </section>
+            <h2>Home Staging</h2>
+          </div>
         </MainSection>
-        <section className="bg-blue-dark text-pink-light mt-20 text-center pt-20 pb-20 2xl:row-start-3 2xl:col-span-3 col-start-1">
+        <section className="bg-blue-dark text-xl text-pink-light mt-10 text-center pt-20 pb-10 2xl:row-start-3 2xl:col-span-3 col-start-1">
           <p>JEJ WNĘTRZA Sylwia Cyrankowska</p>
           <p>NIP: 7831517494</p>
           <email>jejwnetrza@gmail.com</email>
